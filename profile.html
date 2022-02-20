@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="icon" href="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/Untitled-Artwork.jpg?v=1645362529500" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Weather App Wardrobe Designer</title>
+    
+      <style>
+      form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* Form outline */
+        padding: 3em;
+        border: 2px solid #CCC;
+        border-radius: 2em;
+      }
+  
+      h1 {
+        text-align:center;
+      }
+    </style>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+    
+      <h1 class="title">
+          <img class="h1-logo" src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/Untitled-Artwork.jpg?v=1645362529500"/>
+          Weather Wardrobe
+        </h1>
+        
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html"> Home </a>
+          <a href="weather.html"> Find OOTD Inspo</a>
+          <a class="active" href="profile.html"> Your Profile </a>
+          <a href="about.html"> About </a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          
+        </div>
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+
+        <div class="account-page">
+          
+          <h2>
+            Your Past Outfits
+          </h2>
+<!--           <h3>
+            Past Outfits
+          </h3> -->
+          
+           <div><a class="active" href="form.html">
+          <button id="quizButton" class = "btn-primary" href="form.html">Upload New Outfit
+                       
+          </button></a>
+        
+      </div> 
+          <div class="places">
+            
+          <div class="place">
+            <h3>
+              2/13/2022
+              
+            </h3>
+          <img class = "travel-pics" src = "https://i.pinimg.com/564x/3f/39/19/3f3919c6b3b16eead48dcc5ead37bc46.jpg"/> 
+            </div>
+            
+          <div class="place">
+            <h3>
+              2/10/2022
+            </h3>
+            
+          <img class = "travel-pics" src = "https://i.pinimg.com/564x/6a/33/8c/6a338cc44f54da8f4db9f53244367028.jpg"/>
+            </div>
+            
+          <div class="place">
+            <h3>
+              2/9/2022
+            </h3>
+          <img class = "travel-pics" src = "https://i.pinimg.com/564x/6b/29/61/6b29618c86de2f53f624d28d602aad6b.jpg"/>
+            </div>
+            
+          <div class="place">
+            <h3>
+              2/8/2022
+            </h3>
+          <img class = "travel-pics" src = "https://i.pinimg.com/564x/6e/f7/4e/6ef74ea236b92d7299a9565c4020a985.jpg"/>
+            </div>
+            
+          <div class="place">
+            <h3>
+              2/6/2022
+            </h3>
+          <img class = "travel-pics" src = "https://i.pinimg.com/564x/06/99/af/0699afd101397db5e17e0949b1ebc9bd.jpg"/> 
+            </div>
+            
+          <div class="place">
+            <h3>
+              2/2/2022
+            </h3>
+          <img class = "travel-pics" src = "https://i.pinimg.com/564x/81/e4/c9/81e4c965b7fc6ce30bcd1c665df1fabf.jpg"/>
+            </div>
+            
+          <div class="place">
+            <h3>
+              1/31/2022
+            </h3>
+          <img class = "travel-pics" src = "https://i.pinimg.com/564x/f4/f8/42/f4f842062e73a24836317d2318831c5b.jpg"/>
+            </div>
+            
+          <div class="place">
+            <h3>
+              1/27/2022
+            </h3>
+          <img class = "travel-pics" src = "https://i.pinimg.com/564x/78/f4/71/78f4718b3229e0b3f4e9a1e2bf1ba52a.jpg"/>
+            </div>
+          
+            
+          </div>
+       
+          
+          <div class="profile-tag">
+            <p class="username">
+              @ooftdeveryday
+            </p>
+            
+          </div>
+          
+          <div class="prev-outfits">
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    <footer class="footer">
+      <div>
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/526300C9-B25B-440D-B3EC-EAA2C6A445C9.jpeg?v=1645345837980" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/5CEC305D-B31F-4926-9BDF-D7F5F10ACDAD.jpeg?v=1645345829430" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/E320C707-3008-40F8-BBDC-24FEEEC68CD5.jpeg?v=1645345850972" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/4317BD82-74E8-4F66-9A39-0CCA0430C534.jpeg?v=1645345856070" 
+        />
+        
+        <p class="footer-p">
+            Created for HackHers 2022 by Riya Shah, Darla Tapia, Ishani Mhatre, and Cierra Wickliff.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
