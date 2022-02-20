@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/Untitled-Artwork.jpg?v=1645362529500" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Weather App Wardrobe Designer</title>
+    
+    <style>
+      form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* Form outline */
+        padding: 3em;
+        border: 2px solid #CCC;
+        border-radius: 2em;
+      }
+  
+      h1 {
+        text-align:center;
+      }
+    </style>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+    
+      <h1 class="title">
+          <img class="h1-logo" src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/Untitled-Artwork.jpg?v=1645362529500"/>
+          Weather Wardrobe
+        </h1>
+        
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html"> Home </a>
+          <a href="weather.html"> Find OOTD Inspo</a>
+          <a href="profile.html"> Your Profile </a>
+          <a class="active" href="about.html"> About </a>
+<!--           <a class="rightalign"> Weather Wardrobe </a> -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          
+        </div>
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        
+        <h2>
+          About Us
+        </h2>
+       
+<!--         <div class="about-content">
+          <div class="about-description">
+          </div>
+        </div> -->
+            <!-- This is the start of content for our page -->
+      <div class="about-text">
+        <div class="inspo-text">
+          <h3 class="h3-about">
+            Inspiration
+          </h3>
+          <p>
+            Our inspiration for this website was a very common struggle that we shared, especially with climate change and today’s environmental issues. Recently, it has become difficult to choose the appropriate clothing because of how much the weather is fluctuating from warm to chilly. To solve this issue, we built a website that provides users with the best outfit recommendations no matter the day! Based on the weather in your location, Weather Wardrobe will provide you with suggestions on what to wear for every occasion. 
+          </p>
+          <h3>
+            How it Works
+          </h3>
+          <p>
+            The website has a navigation bar with a “Home” page, a “Find Outfit Of the Day Inspiration” or “Find OOTD Inspo” page, “Your Profile” Page, and an “About” page. The home page includes a carousel or slideshow to showcase images for various days and their corresponding outfits as well as preferences for a sample user. The “Find OOTD Inspo” page asks users to input their location and then displays the weather and temperature statistics for that area. Afterwards, users are prompted to take a quiz on their style preferences and the website will display a sample outfit for them to wear! The “Your Profile” Page includes previous outfits the user has worn to avoid repeats and to save personal favorites. Finally, the “About” page includes instructions and more information about the website. 
+          </p>
+          <h3>
+            Future Plans
+          </h3>
+          <p>
+            In the future, we plan to continue expanding our product and adding additional features such as allowing users to share their outfits with each other and add comments or likes. This will make the website more interactive and fun! 
+          </p>
+          
+        </div>
+        </div>
+        
+        <section class="below-the-fold">
+<!--       <h2 class="media-title"></h2> -->
+      <section class="media">
+        <!--   👋  You can change the src to any of the photos here: https://bit.ly/kwk-el-assets. 
+        Make sure to add them to the "assets" folder of your Glitch project and copy the 
+        link Glitch gives you. -->
+        <!--         <img
+          class="media-1"
+          alt="Add you alt text here"
+          src="https://cdn.glitch.com/94beb1ea-a866-4370-9dd5-e628c1515a23%2FUGC-pc-5.jpg?v=1590594725416"
+        /> -->
+        <section class="pics">
+          <!--   👋  You can choose to keep this video, 
+          or remove it and use the one below that is commented out -->
+<!--           <iframe
+            class="media-2"
+            width="840px"
+            height="472.5px"
+            src="https://www.youtube.com/embed/TX50UTe__i4"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe> -->
+
+          <!--  👋  This is the second video option!  -->
+          <!--   <iframe
+            class="media-2"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/jHvplDfZbU0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe> -->
+
+          <!--   👋  You can change the src to any of the photos here: https://bit.ly/kwk-el-assets. 
+          Make sure to add them to the "assets" folder of your Glitch project and copy the 
+          link Glitch gives you. -->
+          <section class="lipsticks">
+            <img
+              class="media-3"
+              width="230px"
+              height="230px"
+              alt="Add you alt text here"
+              src="https://i.pinimg.com/originals/fa/15/69/fa15699af69750040f2f76b40bada501.jpg"
+            />
+            <img
+              class="media-4"
+              width="230px"
+              height="230px"
+              alt="Add you alt text here"
+               src="https://i.pinimg.com/564x/bf/8d/6e/bf8d6e8a7e63ac90b45a6009c0a7d718.jpg"
+             
+            />
+          </section>
+          <section class="lipsticks">
+            <img
+              class="media-3"
+              width="230px"
+              height="230px"
+              alt="Add you alt text here"
+                 src="https://i.pinimg.com/750x/27/29/87/272987ccfd790257d0f0bdc079476f29.jpg"
+            />
+            <img
+              class="media-4"
+              width="230px"
+              height="230px"
+              alt="Add you alt text here"
+                 
+              src="https://i.pinimg.com/564x/a7/96/49/a796498a7ba3451586aa05ee7cc6e26a.jpg"
+            />
+          </section>
+        </section>
+      </section>
+    </section>
+        
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    <footer class="footer">
+      <div>
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/526300C9-B25B-440D-B3EC-EAA2C6A445C9.jpeg?v=1645345837980" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/5CEC305D-B31F-4926-9BDF-D7F5F10ACDAD.jpeg?v=1645345829430" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/E320C707-3008-40F8-BBDC-24FEEEC68CD5.jpeg?v=1645345850972" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/4317BD82-74E8-4F66-9A39-0CCA0430C534.jpeg?v=1645345856070" 
+        />
+        
+        <p class="footer-p">
+            Created for HackHers 2022 by Riya Shah, Darla Tapia, Ishani Mhatre, and Cierra Wickliff.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

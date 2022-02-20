@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="icon" href="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/Untitled-Artwork.jpg?v=1645362529500" />
+    <title>Prefrence Quiz </title>
+    <style>
+      form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* Form outline */
+        padding: 3em;
+        border: 2px solid #CCC;
+        border-radius: 2em;
+      }
+  
+      h1 {
+        text-align:center;
+      }
+    </style>
+    
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  
+  <body>
+    
+    <h1 class="title">
+          <img class="h1-logo" src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/Untitled-Artwork.jpg?v=1645362529500"/>
+          Weather Wardrobe
+        </h1>
+        
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html"> Home </a>
+          <a class="active" href="weather.html"> Find OOTD Inspo</a>
+          <a href="profile.html"> Your Profile </a>
+          <a href="about.html"> About </a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          
+        </div>
+    
+    <h2>
+        Prefrence Quiz
+    </h2>
+    
+    <!--   This will b taken care of   -->
+    
+    <form id="styleQuiz">
+      <label for="weather"><h3>What is the weather like in your location? </h3></label>
+       <input type="radio" id="weather1" name="weather1" value="SunnyDay">
+       <label for="sunny">Sunny Day</label><br>
+       <input type="radio" id="weather2" name="weather2" value="RainyDay">
+       <label for="rainy"> Rainy Day</label><br>
+       <input type="radio" id="weather3" name="weather3" value="ColdDay">
+       <label for="cold"> Cold Day</label><br><br>
+<!--     </form> -->
+    
+    
+    <label for="thisStyle"><h3> What best describes your style?</h3></label>
+<!--     <form> -->
+       <input type="radio" id="masculine" name="style1" value="Men">
+       <label for="men">Masculine</label><br>
+       <input type="radio" id="feminine" name="vehicle2" value="Women">
+       <label for="women"> Feminine</label><br><br>
+<!--     </form> -->
+    
+       <label for="occasion"><h3>What type of event are you attending?</h3></label>
+<!--     <form> -->
+       <input type="radio" id="casual" name="type1" value="Casual">
+       <label for="casual">Casual</label><br>
+       <input type="radio" id="party" name="type2" value="Party">
+       <label for="party"> Party</label><br>
+       <input type="radio" id="work" name="type3" value="Work">
+       <label for="work"> Work</label><br>
+       <input type="radio" id="school" name="type4" value="School">
+       <label for="school"> School</label><br>
+       <input type="radio" id="formalelegant" name="type5" value="Formal/Elegant">
+       <label for="formal/elegant"> Formal/Elegant </label><br>
+       <input type="radio" id="sporty" name="type6" value="Sporty">
+       <label for="sporty"> Sporty </label><br><br><br>
+      <button onclick="changeButton(this)" id="submit">Submit</button>
+      
+      <div>
+      <h3 id="result">Here is your outfit of the day...</h3>
+        <img class="resultedpic" src="https://2.bp.blogspot.com/-yoacGtVJQ4o/Ta2M6iJiLVI/AAAAAAAAACw/XuY_7_Yhh-A/s1600/bgtile.jpg" width = "300" height = "400">
+    </div>
+      
+    </form>
+    
+    
+    <footer class="footer">
+      <div>
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/526300C9-B25B-440D-B3EC-EAA2C6A445C9.jpeg?v=1645345837980" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/5CEC305D-B31F-4926-9BDF-D7F5F10ACDAD.jpeg?v=1645345829430" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/E320C707-3008-40F8-BBDC-24FEEEC68CD5.jpeg?v=1645345850972" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/4317BD82-74E8-4F66-9A39-0CCA0430C534.jpeg?v=1645345856070" 
+        />
+        
+        <p class="footer-p">
+            Created for HackHers 2022 by Riya Shah, Darla Tapia, Ishani Mhatre, and Cierra Wickliff.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

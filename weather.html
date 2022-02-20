@@ -1,0 +1,142 @@
+<!-- <html land = "en" dir = "ltr"> -->
+<!--    <head>
+    
+    <meta charset = "utf-8"> 
+    <title>Weather App In JavaScript</title>
+    <link rel = "stylsheet" href = "style.css"> 
+    <meta name = "viewport" content = "width=device-width, initial scale =1.0"> 
+    <link href = "https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel = "stylesheet">
+    <body>
+      <div class = "wrapper">
+        <header> <i class = "bx bx-left-arrow-alt"></i>Weather
+        </header>
+        <section class = "input-part">
+          <p class = "info-txt">Please enter your location, city name
+          </p>
+          <input type = "text" placeholder = "Enter city name">
+        </section>
+      </div>
+    </body>
+  </head> -->
+<!-- </html> -->
+
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css"
+  />
+  
+  <head>
+    <link rel="icon" href="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/Untitled-Artwork.jpg?v=1645362529500" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    
+       <style>
+      form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* Form outline */
+        padding: 3em;
+        border: 2px solid #CCC;
+        border-radius: 2em;
+      }
+  
+      h1 {
+        text-align:center;
+      }
+    </style>
+    
+  </head>
+  <body>
+<!--         <nav class="navbar navbar-dark bg-primary mb-3">
+            <div class="container">
+                <a href="#" class="navbar-brand">Weather.JS</a>
+            </div>
+        </nav> -->
+      
+        <h1 class="title">
+          <img class="h1-logo" src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/Untitled-Artwork.jpg?v=1645362529500"/>
+          Weather Wardrobe
+        </h1>
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html"> Home </a>
+          <a class="active" href="weather.html"> Find OOTD Inspo</a>
+          <a href="profile.html"> Your Profile </a>
+          <a href="about.html"> About </a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          
+        </div>
+    
+        <div class="wrapper">
+      <div class="content" role="main">
+<!--     <h2>
+      Check the Weather
+    </h2> -->
+      
+        <div class="container searchContainer">
+            <div class="search card card-body">
+                <h2>What Is Your Current Location?</h2>
+                <p class="lead">Enter Your City Name</p>
+                <input type="text" id="searchUser" class="form-control" placeholder="Location">
+            </div>
+            <br>
+            <div id="profile"></div>
+        </div>
+        <div class="container text-center mt-2">
+            <button class="btn btn-primary" id="submit">Submit</button>
+        </div>
+        
+        <div id="content">
+
+        </div>
+      
+      <div style = "text-align:center"><a class="active" href="form.html">
+          <button id="quizButton" class = "btn-primary" href="form.html">Go On to Take OOTD Quiz
+                       
+          </button></a>
+        
+      </div> 
+          </div>
+    </div>
+        <footer class="footer">
+      <div>
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/526300C9-B25B-440D-B3EC-EAA2C6A445C9.jpeg?v=1645345837980" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/5CEC305D-B31F-4926-9BDF-D7F5F10ACDAD.jpeg?v=1645345829430" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/E320C707-3008-40F8-BBDC-24FEEEC68CD5.jpeg?v=1645345850972" 
+        />
+
+        <img 
+          class="footer-img"              
+          src="https://cdn.glitch.global/9ec58ed0-d036-4870-a0e5-00214967ee37/4317BD82-74E8-4F66-9A39-0CCA0430C534.jpeg?v=1645345856070" 
+        />
+        
+        <p class="footer-p">
+            Created for HackHers 2022 by Riya Shah, Darla Tapia, Ishani Mhatre, and Cierra Wickliff.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="fetch.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</html>
